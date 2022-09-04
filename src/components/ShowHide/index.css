@@ -1,0 +1,48 @@
+.background {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-style: roboto;
+  color: #ffffff;
+  font-size: 50px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.btn {
+  height: 5vh;
+  width: 10vw;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #fddddb;
+  color: #dd1264;
+  font-family: roboto;
+}
+.boxContainer {
+  height: 10vh;
+  width: 30vh;
+  background-color: #fddddb;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.boxContainer-2 {
+  display: none;
+}
